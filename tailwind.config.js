@@ -5,6 +5,8 @@ module.exports = {
   },
   variants: {
     margin: ['responsive', 'hover'],
+    display: ['responsive', 'group-hover'],
+
   },
   plugins: [],
 };

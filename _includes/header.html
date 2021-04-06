@@ -1,17 +1,67 @@
 <header class="h-10 flex space-x-48 items-center justify-center mt-16 absolute z-10 left-0 right-0">
     <div class="text-3xl font-sans">Typeform</div>
     <div class="flex items-center justify-center space-x-6">
-        <div class="flex justify-center items-center">
+        <div class="flex justify-center items-center relative inline-block group">
             <a class="cursor-default">Products</a>
             <img src="../assets/icons/arrow-down-black.svg" alt="" class="w-2 h-2 ml-2">
+            <!-- dropdown content begins here -->
+            <div class="hidden absolute top-12 left-0 z-10 group-hover:block bg-white w-56 rounded-sm shadow-md">
+                <div class="flex flex-col py-6 px-8 border-b hover:bg-gray-50 cursor-pointer">
+                    <div class="mb-2 font-semibold">Typeform</div>
+                    <div class="text-xs">People-friendly forms</div>
+                </div>
+                <div class="flex flex-col py-6 px-8 hover:bg-gray-50 cursor-pointer"> 
+                    <div class="mb-2 font-semibold flex items-center">
+                        <svg width="22" height="20" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-1">
+                            <path d="M71.6921 32.492C67.9114 32.4952 64.2841 30.9966 61.6081 28.3258C58.9321 25.655 57.4264 22.0307 57.4222 18.25C57.4232 16.3776 57.7931 14.5238 58.5106 12.7943C59.2281 11.0649 60.2792 9.49366 61.6039 8.17043C62.9286 6.84719 64.501 5.79784 66.2312 5.08228C67.9615 4.36672 69.8157 3.99896 71.6881 4.00001C73.5608 3.99791 75.4156 4.36476 77.1466 5.0796C78.8775 5.79445 80.4506 6.84328 81.7761 8.16619C83.1016 9.48911 84.1535 11.0602 84.8718 12.7897C85.59 14.5192 85.9605 16.3733 85.962 18.246C85.9605 20.1187 85.59 21.9728 84.8718 23.7023C84.1535 25.4318 83.1016 27.0029 81.7761 28.3258C80.4506 29.6487 78.8775 30.6975 77.1466 31.4124C75.4156 32.1272 73.5608 32.4941 71.6881 32.492H71.6921ZM28.635 32.492C26.7626 32.4941 24.9082 32.1274 23.1775 31.4128C21.4468 30.6982 19.8739 29.6497 18.5484 28.3272C17.223 27.0047 16.171 25.4341 15.4525 23.7051C14.7341 21.976 14.3632 20.1224 14.3611 18.25C14.3621 16.3769 14.7322 14.5224 15.4502 12.7925C16.1682 11.0625 17.2201 9.49094 18.5456 8.1676C19.8712 6.84426 21.4445 5.79508 23.1757 5.07999C24.9068 4.36489 26.762 3.99791 28.635 4.00001C30.5074 3.99844 32.3617 4.36567 34.0922 5.08075C35.8227 5.79583 37.3953 6.84474 38.7204 8.1676C40.0455 9.49047 41.097 11.0614 41.815 12.7906C42.533 14.5199 42.9034 16.3736 42.9049 18.246C42.9034 20.1184 42.533 21.9721 41.815 23.7014C41.097 25.4306 40.0455 27.0015 38.7204 28.3244C37.3953 29.6473 35.8227 30.6962 34.0922 31.4112C32.3617 32.1263 30.5074 32.4936 28.635 32.492ZM5.45286 50.2326C2.07786 50.2326 -0.595004 53.1369 0.115102 56.4321C2.60473 67.8072 8.90968 77.9888 17.9833 85.2868C27.057 92.5848 38.3536 96.5602 49.998 96.5531C74.4687 96.5531 94.9182 79.3709 99.8849 56.4321C100.595 53.1369 97.9221 50.2326 94.5471 50.2326H5.45286Z" fill="#FF3C4C"/>
+                        </svg>
+                        Videoask
+                    </div>
+                    <div class="text-xs">The best interface is your face</div>
+                </div>
+            </div>
         </div>
-        <div class="flex justify-center items-center">
+        <div class="flex justify-center items-center relative inline-block group">
             <a class="cursor-default">Templates</a>
             <img src="../assets/icons/arrow-down-black.svg" alt="" class="w-2 h-2 ml-2">
+            <!-- dropdown content begins here -->
+            <div class="hidden absolute top-12 left-0 z-10 group-hover:block bg-white w-56 rounded-sm shadow-md">
+                <div class="py-4 px-8 hover:bg-gray-50 cursor-pointer text-sm">Form templates</div>
+                <div class="py-4 px-8 hover:bg-gray-50 cursor-pointer text-sm">Survey templates</div>
+                <div class="py-4 px-8 hover:bg-gray-50 cursor-pointer text-sm">Quiz templates</div>
+                <div class="py-4 px-8 hover:bg-gray-50 cursor-pointer text-sm">All templates</div>
+            </div>
         </div>
-        <div class="flex justify-center items-center">
+        <div class="flex justify-center items-center relative inline-block group">
             <a class="cursor-default">Integrations</a>
             <img src="../assets/icons/arrow-down-black.svg" alt="" class="w-2 h-2 ml-2">
+            <div class="hidden absolute top-12 left-0 z-10 group-hover:block bg-white w-56 rounded-sm shadow-md">
+                <div class="py-4 px-8 hover:bg-gray-50 cursor-pointer flex items-center">
+                    <img src="../assets/home-page/images/integrations/slack.png" alt="" class="w-5 h-5 mr-5">
+                    <div class="text-sm">Slack</div>
+                </div>
+                <div class="py-4 px-8 hover:bg-gray-50 cursor-pointer flex items-center">
+                    <img src="../assets/home-page/images/integrations/zapier.png" alt="" class="w-5 h-5 mr-5">
+                    <div class="text-sm">Zapier</div>
+                </div>
+                <div class="py-4 px-8 hover:bg-gray-50 cursor-pointer flex items-center">
+                    <img src="../assets/home-page/images/integrations/gsheets.png" alt="" class="w-4 h-5 mr-5">
+                    <div class="text-sm">Google Sheets</div>
+                </div>
+                <div class="py-4 px-8 hover:bg-gray-50 cursor-pointer flex items-center">
+                    <img src="../assets/home-page/images/integrations/airtable.png" alt="" class="w-5 h-5 mr-5">
+                    <div class="text-sm">Airtable</div>
+                </div>
+                <div class="py-4 px-8 hover:bg-gray-50 cursor-pointer flex items-center">
+                    <img src="../assets/home-page/images/integrations/mailchimp.png" alt="" class="w-5 h-5 mr-5">
+                    <div class="text-sm">Mailchimp</div>
+                </div>
+                <div class="py-4 px-8 hover:bg-gray-50 cursor-pointer flex items-center">
+                    <img src="../assets/home-page/images/integrations/ganalytics.png" alt="" class="w-5 h-5 mr-5">
+                    <div class="text-sm">Google Analytics</div>
+                </div>
+                <div class="py-4 px-8 hover:bg-gray-50 cursor-pointer text-sm">All integrations</div>
+            </div>
         </div>
         <div class="flex justify-center items-center">
             <a class="cursor-default">Resources</a>
