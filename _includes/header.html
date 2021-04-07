@@ -1,5 +1,5 @@
-<header class="h-10 flex space-x-48 items-center justify-center mt-16 absolute z-10 left-0 right-0">
-    <div class="text-3xl font-sans">Typeform</div>
+<header class="h-10 flex space-x-48 items-center justify-center mt-16 fixed z-50 left-0 right-0 transform duration-200 ease-in-out" id="header">
+    <div class="text-2xl font-sans">Typeform</div>
     <div class="flex items-center justify-center space-x-6">
         <div class="flex justify-center items-center relative inline-block group">
             <a class="cursor-default">Products</a>
@@ -91,3 +91,19 @@
         </div>
     </div>
 </header>
+
+<script>
+    window.onscroll = () => { checkScroll() };
+
+    function checkScroll() {
+        let element = document.getElementById("header");
+        if(document.body.scrollTop > 50 || document.documentElement.scrollTop > 50){
+            element.style.backgroundColor = "white"
+            element.style.marginTop = "0px"
+            element.style.padding = "35px 0px"
+        }else{
+            element.style.backgroundColor = "transparent"
+            element.style.marginTop = "4rem"
+        }
+    }
+</script>
