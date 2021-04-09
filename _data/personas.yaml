@@ -1,0 +1,35 @@
+- title : "Marketers"
+  subTitle : "attracts new customers with Typeform"
+  text : "Codeworks filters signups and finds the best students with a simple form"
+  p1 : "Beardbrand got"
+  boldText : "150k leads with an embedded quiz"
+  p2 : "on their homepage"
+  nr : 1
+  color : "#8fced6"
+  opacity : 1 
+  pos : "static"
+  id : "persona-1"
+
+- title : "Entrepreneurs"
+  subTitle : "find their audience with Typeform"
+  text : "Codeworks filters signups and finds the best students with a simple form"
+  p1 : "Codeworks"
+  boldText : "filters signups and finds the best students"
+  p2 : "with a simple form"
+  nr : 2
+  color : "#f3cd59"
+  opacity : 0 
+  pos : "absolute"
+  id : "persona-2"
+
+- title : "Entrepreneurs"
+  subTitle : "find their audience with Typeform"
+  text : "Codeworks filters signups and finds the best students with a simple form"
+  p1 : "Mask Match shipped"
+  boldText : "over 350k masks"
+  p2 : "from ordinary people to healthcare workers"
+  nr : 3
+  color : "#fcbeb4"
+  opacity : 0 
+  pos : "absolute"
+  id : "persona-3"
