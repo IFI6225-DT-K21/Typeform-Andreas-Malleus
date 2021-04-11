@@ -1,0 +1,19 @@
+<div class="bg-white mb-56 mt-44">
+    <div class="text-center text-5xl mb-20  ">
+        Here's what people
+        <br>
+        say about us
+    </div>
+    <div class="grid grid-flow-col gap-x-8 transform -translate-x-44 justify-center">
+        {% for i in (1..2) %}
+            {% for testimonial in site.data.testimonials %}
+                {% include testimonial.html 
+                    quote=testimonial.quote
+                    occupation=testimonial.occupation
+                    avatar=testimonial.avatar
+                    logo=testimonial.logo
+                %}
+            {% endfor %}
+        {% endfor %}
+    </div>
+</div> 
